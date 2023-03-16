@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.methodoverloading;
-import java.util.Scanner;
 /**
  *
  * @author Hp
@@ -14,12 +13,13 @@ abstract class A{
 }
 class B extends A{
     int y;
+    @Override
     void display(){
         System.out.println("hello");
     }
 }
 class C extends A{
-    int z;
+    @Override
     void display(){
         System.out.println("good night");
     }

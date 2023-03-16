@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.methodoverloading;
-import java.util.Scanner;
 
 class A{
     int x;
@@ -19,14 +18,10 @@ class B extends A{
         super(k);
         y = w;
     }
-    void display1(){};
 }
-
 class C extends B{
-    int z;
     C(int k, int j, int w){
         super(j,k);
-        z = w;
     }
 }
 
